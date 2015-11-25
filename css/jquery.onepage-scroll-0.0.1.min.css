@@ -1,0 +1,49 @@
+.scroll-navigation-container.left{border-left:none;left:0}.scroll-navigation-container.right{border-right:none;right:30px;}.scroll-navigation-container button{padding:0;cursor:pointer}.scroll-navigation-container button:focus{outline:none !important}.navi-item{position:relative;box-sizing:border-box}.navi-tooltip{position:absolute;white-space:nowrap;padding:4px 8px;border-radius:4px;display:none}
+.navi-tooltip:after {
+    left: 98%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-left-color: #ff9900;
+    border-width: 8px;
+    margin-top: -8px;
+}
+
+
+/*# sourceMappingURL=jquery.onepage-scroll-0.0.1.min.css.map */
+
+.button-circle {
+    width: 30px!important;
+    height: 2px!important;
+    border-radius: 0px!important; 
+    border: none!important;
+    margin-top: 0px!important;
+    margin-left: 11px!important;
+    background: #fff!important;
+
+}
+.button-circle.buttonAktiv {
+    width: 30px!important;
+    height: 2px!important;
+    border-radius: 0px!important; 
+    border: none!important;
+    margin-top: 0px!important;
+    margin-left: 11px!important;
+    background: #ff9900!important;
+}
+.navi-item {
+    height: 15px!important;
+}
+.scroll-navigation-container.right{
+	border: none!important;
+	background: none!important;
+	z-index: 999;
+}
+.navi-tooltip {
+font-family: 'Ubuntu';
+font-size: 11px;
+}
