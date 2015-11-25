@@ -63,3 +63,26 @@ $(function() {
     $('.choos_content').matchHeight();
 });
 //And Alignment unit  .we_height Main page
+
+//Alignment unit .choos_content Main page
+$(function() {
+    $('.tt_bot').matchHeight();
+});
+//And Alignment unit  .if_height Main page
+
+//Alignment unit .choos_content Map Main page
+$(function() {
+    $('.footr_form').matchHeight();
+});
+//And Alignment unit  .if_height Map Main page
+
+
+$(document).ready(function() {
+ 
+  $("#reviews").owlCarousel({
+    pagination: false,
+    navigation: true,
+    singleItem : true
+  });
+ 
+});

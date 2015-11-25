@@ -2,8 +2,14 @@
 	1. Main page
 		1.1 Header
 		1.2 What we offer
+        1.3 Teams we build
         1.5 Experts we provide
+        1.6 How it works
         1.7 Why choose us
+        1.8 Good people say
+        1.9 Read our blog
+        1.10 .footer_message
+        1.11 Footer
 	2. Common site styles
 	3. Styles for responsive breakpoints
 	4. Print style
@@ -151,9 +157,95 @@ body {
     display: block;
 }
 
-
-
-
+/* ---------------------------------------------------------
+    Main page 1.3 Teams we build
+---------------------------------------------------------*/
+.teams_we {
+    background: #fff;
+    padding: 50px 0;
+}
+.teams_stul {
+    margin-top: 50px;
+}
+.team_bg{
+    width: 130px;
+    height: 120px;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 45px;
+}
+.team_con:hover .team_cont{
+    display: block;
+}
+.team_cont{
+    position: absolute;
+    top: 0px;
+    display: none;
+    background: #fff url(../img/teamshower.png) no-repeat center center;
+    background-size: 100%;
+    z-index: 999;
+    width: 130px;
+    height: 120px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.team_cont p {
+    margin-top: 18px;
+    color: #384046;
+    font-size: 12px;
+    font-family: 'Orbitron-Regular';
+}
+.team_con {
+    position: relative;
+}
+.team1 {
+    background: url(../img/teams1.png) no-repeat center center, url(../img/yellow_12.png) no-repeat center center;
+        background-size: 100%;
+}
+.team2 {
+    background: url(../img/teams2.png) no-repeat center center, url(../img/yellow_12.png) no-repeat center center;
+        background-size: 100%;
+}
+.team3 {
+    background: url(../img/teams3.png) no-repeat center center, url(../img/yellow_12.png) no-repeat center center;
+        background-size: 100%;
+}
+.team4 {
+    background: url(../img/teams4.png) no-repeat center center, url(../img/yellow_12.png) no-repeat center center;
+        background-size: 100%;
+}
+.team5 {
+    background: url(../img/teams5.png) no-repeat center center, url(../img/yellow_12.png) no-repeat center center;
+        background-size: 100%;
+}
+.team6 {
+    background: url(../img/teams6.png) no-repeat center center, url(../img/yellow_12.png) no-repeat center center;
+        background-size: 100%;
+}
+.team7 {
+    background: url(../img/teams7.png) no-repeat center center, url(../img/yellow_12.png) no-repeat center center;
+        background-size: 100%;
+}
+.team8 {
+    background: url(../img/teams8.png) no-repeat center center, url(../img/yellow_12.png) no-repeat center center;
+        background-size: 100%;
+}
+.team9 {
+    background: url(../img/teams9.png) no-repeat center center, url(../img/yellow_12.png) no-repeat center center;
+        background-size: 100%;
+}
+.team10 {
+    background: url(../img/teams10.png) no-repeat center center, url(../img/yellow_12.png) no-repeat center center;
+        background-size: 100%;
+}
+.team11 {
+    background: url(../img/teams11.png) no-repeat center center, url(../img/yellow_12.png) no-repeat center center;
+        background-size: 100%;
+}
+.team12 {
+    background: url(../img/teams12.png) no-repeat center center, url(../img/yellow_12.png) no-repeat center center;
+        background-size: 100%;
+}
 /* ---------------------------------------------------------
     Main page 1.5 Experts we provide
 ---------------------------------------------------------*/
@@ -180,6 +272,14 @@ body {
 .experts_stul {
     text-align: center;
     margin-top: 25px;
+}
+
+
+/* ---------------------------------------------------------
+    Main page 1.6 How it works
+---------------------------------------------------------*/
+.it_works {
+    padding: 15px 0;
 }
 /* ---------------------------------------------------------
     Main page 1.7 Why choose us
@@ -221,3 +321,361 @@ body {
 .ch_8 {    background: url(../img/highestlevel.png) no-repeat left top;}
 .ch_9 {    background: url(../img/projectmanagement.png) no-repeat left top;}
 .ch_10 {    background: url(../img/geographicalproximity.png) no-repeat left top;}
+
+
+
+/* ---------------------------------------------------------
+    Main page 1.8 Good people say
+---------------------------------------------------------*/
+.people_say {
+    padding: 20px 0 70px 0;
+}
+.slogan_people {
+    width: 26px;
+    height: 26px;
+    background: url(../img/peoplesays.png) no-repeat top center;
+    margin-bottom: -9px;
+    margin-left: 7px;
+    display: inline-block;
+}
+.x_posit {
+    float: left;
+    text-align: center;
+}
+.y_posit {
+    float: right;
+    background: url(../img/punktuation.png) no-repeat 15px top;
+    padding-top: 34px;
+}
+.owl_people {
+    margin-top: 28px;
+}
+.y_posit p {
+    margin-top: 11px;
+    line-height: 21px;
+    color: #384046;
+
+}
+.author_img {
+    border-radius: 50%;
+    border: 1px solid #40474D;
+}
+.author {
+    margin: 10px 0;
+    font-family: 'Ubuntu-Italic';
+    font-size: 14px;
+    color: #384046;
+}
+.people_say .owl-theme .owl-controls {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+.people_say .owl-theme .owl-controls .owl-buttons .owl-prev {
+    position: absolute;
+    left: -40px;
+    background: url(../img/sliderightpeoplesays.png) no-repeat top center;
+}
+.people_say .owl-theme .owl-controls .owl-buttons .owl-next {
+    position: absolute;
+    right: -40px;
+    background: url(../img/slideleftpeoplesays.png) no-repeat top center;
+}
+.people_say .owl-theme .owl-controls .owl-buttons div{
+    width: 38px;
+    height: 34px;
+    font-size: 0px;
+    text-indent: -999px;
+}
+/* ---------------------------------------------------------
+    Main page 1.9 Read our blog
+---------------------------------------------------------*/
+.read_blog {
+    padding: 25px 0px 90px 0;
+    background: #fff;
+}
+.read_blog_stul {
+    margin-top: 45px;
+}
+
+.test_bc {
+    background: #383F45;
+    height: 100%;
+    position: relative;
+}
+.tes_1 {
+    position: relative;
+}
+.tes_1 img {
+    max-width: 100%;
+    width: 100%;
+}
+.test_title {
+    position: absolute;
+    top: 12px;
+    right: -1px;
+}
+.test_title a {
+    color: #384046;
+    padding: 5px 13px;
+    margin: 0;
+    background-color: #FF9801;
+    font-size: 14px;
+}
+.test_i1 {
+    font-size: 18px;
+    font-family: 'Ubuntu-Medium';
+    position: relative;
+    color: #fff;
+    margin-bottom: 100px;
+    padding-top: 0px;
+    line-height: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.test_i1 a {
+    color: #fff;
+}
+.test_i1 a span  {
+    color: #ff9900;
+}
+.test_i2 {
+    padding: 0 30px;
+    margin-bottom: 60px;
+}
+.title_teg {
+    position: absolute;
+    padding: 0 15px 7px 15px;
+    bottom: 0px;
+    width: 100%;
+}
+.title_teg p {
+    color: #78909c;
+    font-family: 'Ubuntu-Italic';
+}
+.title_teg p a {
+    color: #ff9800;
+}
+.teg_new {
+    width: 47px;
+    height: 41px;
+    background: url(../img/newarticle.png) no-repeat left top;
+}
+.teg_new {
+    width: 47px;
+    height: 41px;
+    background: url(../img/newarticle.png) no-repeat left top;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+    text-align: center;
+    padding-top: 12px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.teg_new:hover{
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+/* ---------------------------------------------------------
+    Main page 1.10 .footer_message
+---------------------------------------------------------*/
+.map_message{
+    position: relative;
+    margin-bottom: 60px;
+}
+.g_map {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.foot_title {
+    background: #383F45;
+    padding: 10px 15px;
+}
+.g_map img {
+    width: 100%;
+}
+.section_h3.section_h3map {
+    text-align: left;
+    color: #fff;
+    margin: 10px 0 8px 15px;
+}
+.slogan_map {
+    text-align: right;
+    color: #AAB5BB;
+    font-family: 'Ubuntu-Italic';
+    padding-right: 77px;
+    line-height: 37px;
+    letter-spacing: 0.3px;
+    font-size: 15px;
+    margin: 5px 0 0 0;
+}
+
+.cont_information {
+    background: #fff;
+}
+.send_message {
+    background: #FF9801;
+    padding: 0 25px;
+}
+.cont_inf {
+    padding: 0;
+    padding-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+}
+.cont_inf li {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.cont_inf li a {
+    color: #374046;
+    padding-left: 47px;
+    font-family: 'Ubuntu-Medium';
+    display: block;
+    padding-bottom: 10px;
+}
+.cont_inf li a span{
+    display: block;
+}
+.cont_tel { background: url(../img/phone.png) no-repeat top left;}
+.cont_mail { background: url(../img/email.png) no-repeat top left;     margin-bottom: 35px;}
+.cont_map { background: url(../img/map.png) no-repeat top left;}
+.cont_skype { background: url(../img/skype.png) no-repeat top left;}
+
+.cont_inf li a span sup {
+    color: #fff;
+    color: #ff9900;
+    text-transform: uppercase;
+    padding-left: 3px;
+}
+.section_h3.h3_messag {
+    text-align: left;
+    text-transform: inherit;
+    margin-top: 35px;
+    font-size: 19px;
+}
+.section_h3.h3_messag span {
+    color: #fff;
+}
+
+
+
+form { margin:25px auto; }
+
+.foot_f input  {
+    color: #384146;
+    font-size: 14px;
+    line-height: 22px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #384146;
+    transition: all 0.3s;
+    padding: 5px 0;
+    margin-bottom: 26px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.foot_f input:focus, .foot_f textarea:focus { border-bottom:2px solid #78909C; }
+.foot_f input::-webkit-input-placeholder, .foot_f textarea::-webkit-input-placeholder {color:    #384146;}
+.foot_f input, .foot_f textarea:-moz-placeholder {    color:   #384146;}
+.foot_f input, .foot_f textarea::-moz-placeholder {    color:  #384146;}
+.foot_f input, .foot_f textarea:-ms-input-placeholder {color:    #384146;}
+.foot_f textarea {
+    height: 154px;
+    resize: vertical;
+    width: 100%;
+    color: #384146;
+    font-size: 14px;
+    line-height: 22px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #384146;
+}
+.foot_f textarea:focus {
+    border: none;
+    border-bottom: 2px solid #78909C;
+    box-shadow: none;
+    background: none;
+}
+
+.foot_f [type="submit"] {
+    width: 150px;
+    background: #383F45;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    float: right;
+    font-family: 'Orbitron-Medium';
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    transition: all 0.3s;
+}
+.foot_f [type="submit"]:hover { background:#78909C; }
+
+.map_boxshadow {
+    overflow: hidden;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 1px 0px rgb(180, 181, 183);
+    -moz-box-shadow: 1px 1px 1px 0px rgb(180, 181, 183);
+    box-shadow: 0px 0px 2px 0px rgb(129, 129, 129);
+    margin-top: 210px;
+}
+
+/* ---------------------------------------------------------
+    Main page 1.11 footer
+---------------------------------------------------------*/
+footer {
+    background: #383F45;
+    padding: 10px 0;
+    color: #78909c;
+    font-size: 12px;
+}
+
+
+footer p, footer a {
+    font-size: 12px;
+    color: #78909c;
+    line-height: 35px;
+    margin-bottom: 0px;
+}
+footer a:hover{
+    color: #78909c;
+}
+
+.f_icon {
+    height: 30px;
+    width: 26px;
+    float: right;
+    display: block;
+    margin-left: 17px;
+    margin-top: 5px;
+}
+.f_compani {
+    background: url(../img/VoroninDesignStudio.png) no-repeat left center;
+    padding: 15px 0 11px 50px;
+}
+.f_icon:hover{
+    opacity: 0.7;
+}
+
+.fi_f{
+    background: url(../img/footerfacebook.png) no-repeat top center;
+}
+.fi_i{
+    background: url(../img/footerin.png) no-repeat top center;
+}
