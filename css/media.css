@@ -4,7 +4,10 @@
 @media only screen and (max-width : 1200px) {
 
 }
-
+@media only screen and (max-width : 1100px) {
+.people_say .owl-theme .owl-controls .owl-buttons .owl-prev {left: 0px;}
+.people_say .owl-theme .owl-controls .owl-buttons .owl-next {right: 0px;}
+}
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 .wi_1 {background-size: 60%;}
@@ -58,6 +61,18 @@
 .row.ind_cent {position: absolute;width: 100%;top: 50%;}
 .industries {position: relative;}
 .uz { margin: 60px 0 60px 0;}
+.y_posit {margin-bottom: 30px;}
+.people_say .owl-theme .owl-controls .owl-buttons .owl-prev {left: 20px;}
+.people_say .owl-theme .owl-controls .owl-buttons .owl-next {right: 20px;}
+.people_say .owl-theme .owl-controls { bottom: 25%; top:auto;}
+.tt_bot { margin-bottom: 20px;}
+.read_blog {padding: 25px 0px 10px 0;}
+.g_map {position: relative;width: 100%; height: 350px; overflow: hidden;}
+.map_boxshadow {margin-top: 0px;}
+.map_message {margin-bottom: 0px;}
+.slogan_map {padding-right: 0px;font-size: 15px;    line-height: 25px;}
+.foot_f [type="submit"] { width: 100%;}
+.test_i1 {margin-bottom: 160px;}
 }
 @media only screen and (max-width : 650px) {
 .team_cont {position: relative;display: block;background: none;background-size: 100%;width: 100%;
@@ -67,6 +82,7 @@
 .team_cont p {margin-top: 0px;}
 .team_con {height: 180px;}
 .heading_slide h1 a {line-height: 46px;font-size: 16px;}
+.section_h3.section_h3map {margin: 12px 0 0px 0px;}
 	}
 @media only screen and (max-width : 600px) {
 .wi_3:before {right: 40%;}
@@ -114,5 +130,7 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-
+.content_offer a {margin-bottom: 190px;}
+.we_offer {padding: 30px 0 100px 0;}
+.foot_f [type="submit"] { margin-top: 59px;}
 }

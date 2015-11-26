@@ -95,3 +95,8 @@ $(document).ready(function(){
     pagerSelector: '.industriewwepager'
   });
 });
+
+
+$(document).ready(function(){
+new WOW().init();
+});
