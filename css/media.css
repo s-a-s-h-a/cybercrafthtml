@@ -20,6 +20,7 @@
 .wi_3:before {top: 40px;right: -35%;}
 .wi_4:before {top: 40px;right: -10%;}
 .wi_1 h3:before {top: -142%;right: 69%;}
+
 }
 
 /* Small Devices, Tablets */
@@ -126,6 +127,10 @@ nav.slides-pagination {width: 750px;}
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 nav.slides-pagination { width: 970px;}
+p.sect_clogan.choos_bgp.teams_wed {
+    width: 65%;
+    margin: 0 auto;
+}
 }
 
 /* Large Devices, Wide Screens */
