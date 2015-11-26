@@ -112,6 +112,7 @@ body {
 ---------------------------------------------------------*/
 .we_offer {
     padding: 30px 0 100px 0;
+    overflow: hidden;
 }
 .mdno_pading {
     padding-right: 0px;
@@ -571,7 +572,9 @@ body {
 ---------------------------------------------------------*/
 .choose_us {
     background: #fff;
-    padding: 25px 0 100px 0
+    padding: 25px 0 100px 0;
+    overflow: hidden;
+
 }
 .choos_bgp {
     color: #78909c;
@@ -678,6 +681,7 @@ body {
 .read_blog {
     padding: 25px 0px 90px 0;
     background: #fff;
+        overflow: hidden;
 }
 .read_blog_stul {
     margin-top: 45px;
