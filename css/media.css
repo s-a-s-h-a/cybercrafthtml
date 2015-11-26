@@ -120,12 +120,12 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
+nav.slides-pagination {width: 750px;}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
+nav.slides-pagination { width: 970px;}
 }
 
 /* Large Devices, Wide Screens */
@@ -133,4 +133,12 @@
 .content_offer a {margin-bottom: 190px;}
 .we_offer {padding: 30px 0 100px 0;}
 .foot_f [type="submit"] { margin-top: 59px;}
+nav.slides-pagination {
+    width: 1170px;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    bottom: 11%;
+    padding: 0 15px;
+}
 }
