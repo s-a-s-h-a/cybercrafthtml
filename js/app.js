@@ -86,3 +86,12 @@ $(document).ready(function() {
   });
  
 });
+
+
+
+
+$(document).ready(function(){
+  $('.industrieswehelp').bxSlider({
+    pagerSelector: '.industriewwepager'
+  });
+});

@@ -3,6 +3,7 @@
 		1.1 Header
 		1.2 What we offer
         1.3 Teams we build
+        1.4 Industries we help
         1.5 Experts we provide
         1.6 How it works
         1.7 Why choose us
@@ -190,7 +191,7 @@ body {
     text-align: center;
 }
 .team_cont p {
-    margin-top: 18px;
+    margin-top: 23px;
     color: #384046;
     font-size: 12px;
     font-family: 'Orbitron-Regular';
@@ -246,6 +247,133 @@ body {
     background: url(../img/teams12.png) no-repeat center center, url(../img/yellow_12.png) no-repeat center center;
         background-size: 100%;
 }
+
+/* ---------------------------------------------------------
+    Main page 1.4 Industries we help
+---------------------------------------------------------*/
+.industries {
+    background: #383F45;
+    overflow: hidden;
+}
+.p_tex.ter_im {
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+.p_ot {
+    padding-left: 0px;
+    float: right;
+}
+.et_zah{
+        font-family: 'Orbitron-Medium';
+    font-size: 18px;
+    margin-bottom: 6px;
+    margin-top: 53px;
+    
+}
+.p_ot p {
+    color: #fff;
+    padding-left: 79px;
+    margin-top: 13px;
+    line-height: 21px;
+}
+.et_zah a{
+   color: #fff; 
+}
+.p_ot .et_zah:first-letter {
+    float: left;
+    margin: -.3em .2em .1em 0;
+    padding: .2em .4em;
+    font-family: 'Ubuntu-Medium';
+    font-size: 260%;
+    color: #000;
+    background: #ff9900;}
+.p_ot .et_zah:first-line {
+    font-variant: small-caps; }
+.ter_im img {
+    right: -100px;
+}
+.ter_im img {
+    min-width: 100%;
+}
+.section_h3.ins_h3 {
+    position: absolute;
+    top: 45px;
+    right: 28px;
+    color: #fff;
+}
+.section_h3.ins_h3 .sh3_bg{color: #fff;}
+.uz {
+    color: #ff9900;
+    padding-left: 83px;
+    font-family: 'Orbitron-Medium';
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 60px 0 100px 0;
+    display: block;
+}
+.uz:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.industriewwepager {
+    text-align: right;
+    margin-top: -58px;
+    margin-right: 8px;
+}
+.industriewwepager .bx-pager-item {
+    display: inline;
+}
+.industriewwepager .bx-pager-link {
+    width: 26px;
+    height: 24px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    margin: 2px 7px;
+    padding: 0 9px 5px 7px;
+    overflow: hidden;
+    text-indent: -100%;
+    font-family: 'Orbitron-Medium';
+    font-size: 14px;
+    color: #FFF;
+    border-bottom: 2px solid #fff;
+    text-shadow: 1px 1px 1px rgba(5, 5, 5, 1);
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.70);
+    -moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.70);
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.70);
+}
+.industriewwepager .bx-pager-link{text-decoration: none;}
+.industriewwepager .bx-pager-link.active{
+        color: #ff9900;
+    border-bottom: 2px solid #ff9900;
+    text-decoration: none;
+}
+.industries .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    outline: 0;
+    width: 39px;
+    height: 35px;
+    text-indent: -9999px;
+    z-index: 9999;
+}
+.industries .bx-wrapper .bx-controls-direction a:hover{
+    opacity: 0.8;
+}
+.industries .bx-wrapper .bx-prev {
+    left: 10px;
+    background: url(../img/slideserviseleft.png) no-repeat 0 0px;
+}
+.industries .bx-wrapper .bx-next {
+    right: 10px;
+    background: url(../img/slideserviseright.png) no-repeat 0px 0px;
+}
 /* ---------------------------------------------------------
     Main page 1.5 Experts we provide
 ---------------------------------------------------------*/
@@ -279,7 +407,159 @@ body {
     Main page 1.6 How it works
 ---------------------------------------------------------*/
 .it_works {
-    padding: 15px 0;
+    padding: 15px 0 55px 0;
+}
+.it_works_stul {
+    margin-top: 70px;
+}
+.work_icon{
+    text-align: center;
+    padding-top: 78px;
+    position: relative;
+}
+.wi_1:after{
+    content: "1";
+    position: absolute;
+    top: -25px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    background: url(../img/iconprovide.png) no-repeat top center;
+    padding-top: 3px;
+    text-align: center;
+    font-family: 'Orbitron-Medium';
+    font-size: 14px;
+    color: #ff9900;
+}
+.wi_2:after{
+    content: "2";
+    position: absolute;
+    top: -25px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    background: url(../img/iconprovide.png) no-repeat top center;
+    padding-top: 3px;
+    text-align: center;
+    font-family: 'Orbitron-Medium';
+    font-size: 14px;
+    color: #ff9900;
+}
+.wi_3:after{
+    content: "3";
+    position: absolute;
+    top: -25px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    background: url(../img/iconprovide.png) no-repeat top center;
+    padding-top: 3px;
+    text-align: center;
+    font-family: 'Orbitron-Medium';
+    font-size: 14px;
+    color: #ff9900;
+}
+.wi_4:after{
+    content: "4";
+    position: absolute;
+    top: -25px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    background: url(../img/iconprovide.png) no-repeat top center;
+    padding-top: 3px;
+    text-align: center;
+    font-family: 'Orbitron-Medium';
+    font-size: 14px;
+    color: #ff9900;
+}
+.wi_1 h3{
+    position: relative;
+}
+.wi_1 h3:before{
+    content: "";
+    position: absolute;
+    top: -136%;
+    right: 65%;
+    width: 35%;
+    height: 26px;
+    background: url(../img/icon_29.png) no-repeat top center;
+    background-size: 79%;
+    padding-top: 3px;
+    text-align: center;
+    font-family: 'Orbitron-Medium';
+    font-size: 14px;
+    color: #ff9900;
+}
+.wi_1:before{
+    content: "";
+    position: absolute;
+    top: 33%;
+    right: -32%;
+    width: 60%;
+    height: 26px;
+    background: url(../img/arrow1.png) no-repeat top center;
+        background-size: 100%;
+    padding-top: 3px;
+    text-align: center;
+    font-family: 'Orbitron-Medium';
+    font-size: 14px;
+    color: #ff9900;
+}
+.wi_2:before{
+    content: "";
+    position: absolute;
+    top: 33%;
+    right: -32%;
+    width: 60%;
+    height: 26px;
+    background: url(../img/arrow1.png) no-repeat top center;
+        background-size: 100%;
+    padding-top: 3px;
+    text-align: center;
+    font-family: 'Orbitron-Medium';
+    font-size: 14px;
+    color: #ff9900;
+}
+.wi_3:before{
+    content: "";
+    position: absolute;
+    top: 33%;
+    right: -32%;
+    width: 60%;
+    height: 26px;
+    background: url(../img/arrow1.png) no-repeat top center;
+        background-size: 100%;
+    padding-top: 3px;
+    text-align: center;
+    font-family: 'Orbitron-Medium';
+    font-size: 14px;
+    color: #ff9900;
+}
+.wi_4:before{
+    content: "";
+    position: absolute;
+    top: 33%;
+    right: -5%;
+    width: 35%;
+    height: 26px;
+    background: url(../img/icon_29.png) no-repeat top center;
+    background-size: 79%;
+    padding-top: 3px;
+    text-align: center;
+    font-family: 'Orbitron-Medium';
+    font-size: 14px;
+    color: #ff9900;
+}
+.wi_1{    background: url(../img/requirements.png) no-repeat top center;}
+.wi_2{    background: url(../img/candidates.png) no-repeat top center;}
+.wi_3{    background: url(../img/developers.png) no-repeat top center;}
+.wi_4{    background: url(../img/working.png) no-repeat top center;}
+.work_icon h3 {
+    font-size: 14px;
+    font-family: 'Orbitron-Medium';
+    color: #546e7a;
+    line-height: 18px;
 }
 /* ---------------------------------------------------------
     Main page 1.7 Why choose us
