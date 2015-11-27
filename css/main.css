@@ -812,6 +812,7 @@ body {
 .map_message{
     position: relative;
     margin-bottom: 60px;
+    overflow: hidden;
 }
 .g_map {
     position: absolute;
