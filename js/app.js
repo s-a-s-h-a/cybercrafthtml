@@ -16,9 +16,7 @@ $(document).ready(function() {
     scrollable: true
   });
 
-  document.ontouchmove = function(e) {
-    e.preventDefault();
-  };
+
   $('#slides').hammer().on('swipeleft', function() {
     $(this).superslides('animate', 'next');
   });
@@ -76,7 +74,7 @@ $(function() {
 });
 //And Alignment unit  .if_height Map Main page
 
-
+// Slider Main page
 $(document).ready(function() {
  
   $("#reviews").owlCarousel({
@@ -86,24 +84,22 @@ $(document).ready(function() {
   });
  
 });
+//End Slider Main page
 
 
-
-
+// Slider Main page
 $(document).ready(function(){
   $('.industrieswehelp').bxSlider({
     pagerSelector: '.industriewwepager'
   });
 });
-
-
+//End Slider Main page
+// Animated css scroll
 $(document).ready(function(){
 new WOW().init();
 });
-
-
-
-
+// Animated css scroll
+// Form animated Main page
 $(document).ready(function() {
 
   $('input').each(function() {
@@ -144,3 +140,4 @@ $(document).ready(function() {
   });
 
 });
+//And Form animated Main page

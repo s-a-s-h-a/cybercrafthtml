@@ -164,6 +164,7 @@ body {
     display: inline-block;
     background: #EBEFF2;
     padding: 11px 18px;
+    text-align: center;
 }
 .content_offer a:hover{
     background: #ff9900;

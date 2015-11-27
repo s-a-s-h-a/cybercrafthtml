@@ -61,7 +61,7 @@
 .industries .bx-wrapper .bx-controls-direction a { top: 25%;}
 .row.ind_cent {position: absolute;width: 100%;top: 50%;}
 .industries {position: relative;}
-.uz { margin: 60px 0 60px 0;}
+.uz {     margin: 38px 0 40px 63px;}
 .y_posit {margin-bottom: 30px;}
 .people_say .owl-theme .owl-controls .owl-buttons .owl-prev {left: 20px;}
 .people_say .owl-theme .owl-controls .owl-buttons .owl-next {right: 20px;}
@@ -74,6 +74,9 @@
 .slogan_map {padding-right: 0px;font-size: 15px;    line-height: 25px;}
 .foot_f [type="submit"] { width: 100%;}
 .test_i1 {margin-bottom: 160px;}
+footer {
+    padding: 25px 0;
+}
 }
 @media only screen and (max-width : 650px) {
 .team_cont {position: relative;display: block;background: none;background-size: 100%;width: 100%;
@@ -89,7 +92,12 @@
 .wi_3:before {right: 40%;}
 .wi_1:before {right: 40%;}
 .wi_2:before {right: 40%;}
-
+footer p, footer a {
+    font-size: 9px;
+}
+footer {
+    padding: 10px 0;
+}
 	}
 @media only screen and (max-width : 550px) {
 	.team_bg {width: 70px;height: 70px;}
