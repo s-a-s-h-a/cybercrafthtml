@@ -18,13 +18,18 @@ $(document).ready(function() {
   });
 
 
-  $('#slides').hammer().on('swipeleft', function() {
-    $(this).superslides('animate', 'next');
-  });
+  // disabled swipe on home slider because it prevents browser scroll
+  var handle_main_slider_swipe = false
 
-  $('#slides').hammer().on('swiperight', function() {
-    $(this).superslides('animate', 'prev');
-  });
+	if(handle_main_slider_swipe){
+		  $('#slides li').hammer().on('swipeleft', function() {
+		    $(this).superslides('animate', 'next');
+		  });
+
+		  $('#slides li').hammer().on('swiperight', function() {
+		    $(this).superslides('animate', 'prev');
+		  });
+	}
 
 });
 //And js main heder superslides
