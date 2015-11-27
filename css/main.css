@@ -45,6 +45,9 @@ body {
     width: 100%;
     z-index: 10;
 }
+.slider_top {
+    background: #383F45;
+}
 .heading_slide {
     position: absolute;
     z-index: 20;
@@ -129,7 +132,7 @@ body {
     font-size: 17px;
     margin-bottom: 4px;
     margin-top: 23px;
-    color: #373E44;
+    color: #383D43;
 }
 .content_offer h3:first-letter {
 	float: left;
@@ -280,10 +283,10 @@ body {
 }
 .et_zah{
     font-family: 'Orbitron-Medium';
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 6px;
     margin-top: 53px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.7px;
 }
 .p_ot p {
     color: #fff;
@@ -299,7 +302,7 @@ body {
     margin: -.3em .2em .1em 0;
     padding: .2em .4em;
     font-family: 'Ubuntu-Medium';
-    font-size: 260%;
+    font-size: 270%;
     color: #374045;
     background: #ff9900;}
 .p_ot .et_zah:first-line {
@@ -820,6 +823,8 @@ body {
 .foot_title {
     background: #383F45;
     padding: 10px 15px;
+    position: relative;
+    z-index: 888;
 }
 .g_map img {
     width: 100%;
@@ -842,10 +847,16 @@ body {
 
 .cont_information {
     background: #fff;
+        -webkit-box-shadow: 0px 0px 2px 0px rgb(129, 129, 129);
+    -moz-box-shadow: 0px 0px 2px 0px rgb(129, 129, 129);
+    box-shadow: 0px 0px 2px 0px rgb(129, 129, 129);
 }
 .send_message {
     background: #FF9801;
     padding: 0 25px;
+            -webkit-box-shadow: 0px 0px 2px 0px rgb(129, 129, 129);
+    -moz-box-shadow: 0px 0px 2px 0px rgb(129, 129, 129);
+    box-shadow: 0px 0px 2px 0px rgb(129, 129, 129);
 }
 .cont_inf {
     padding: 0;
@@ -902,20 +913,21 @@ form { margin:25px auto; }
     border: none;
     border-bottom: 2px solid #384146;
     transition: all 0.3s;
-    padding: 5px 0;
+    padding: 5px;
     margin-bottom: 26px;
     width: 100%;
     box-sizing: border-box;
     outline: 0;
+
 }
 
-.foot_f input:focus, .foot_f textarea:focus { border-bottom:2px solid #78909C; }
+.foot_f input:focus, .foot_f textarea:focus { border-bottom:2px solid #fff; }
 .foot_f input::-webkit-input-placeholder, .foot_f textarea::-webkit-input-placeholder {color:    #384146;}
 .foot_f input, .foot_f textarea:-moz-placeholder {    color:   #384146;}
 .foot_f input, .foot_f textarea::-moz-placeholder {    color:  #384146;}
 .foot_f input, .foot_f textarea:-ms-input-placeholder {color:    #384146;}
 .foot_f textarea {
-    height: 154px;
+    height: 147px;
     resize: vertical;
     width: 100%;
     color: #384146;
@@ -928,10 +940,7 @@ form { margin:25px auto; }
 .foot_f  textarea:focus,.foot_f input:focus{outline: none;}
 
 .foot_f textarea:focus {
-    border: none;
-    border-bottom: 2px solid #78909C;
-    box-shadow: none;
-    background: none;
+    border-bottom: 2px solid #fff;
 }
 
 .foot_f [type="submit"] {
@@ -950,15 +959,42 @@ form { margin:25px auto; }
     margin-top: 15px;
     transition: all 0.3s;
 }
-.foot_f [type="submit"]:hover { background:#78909C; }
+.foot_f [type="submit"]:hover { background:#fff; color: #FF9801; }
 
 .map_boxshadow {
     overflow: hidden;
-    overflow: hidden;
-    -webkit-box-shadow: 1px 1px 1px 0px rgb(180, 181, 183);
-    -moz-box-shadow: 1px 1px 1px 0px rgb(180, 181, 183);
-    box-shadow: 0px 0px 2px 0px rgb(129, 129, 129);
     margin-top: 210px;
+    padding: 1px;
+}
+.css {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.css input, .css textarea {
+  transition: .3s all linear;
+}
+
+.css label, .css textarea {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    color: #384146;
+    font-size: 14px;
+    transition: .3s all linear;
+    cursor: text;
+    font-weight:normal;
+}
+.css.messagetext {
+    height: 155px;
+}
+.css.active label {
+  top: -12px;
+  font-size: 13px;
+}
+.yellowformcontacts {
+    position: relative;
+    z-index: 444;
 }
 
 /* ---------------------------------------------------------
@@ -979,7 +1015,8 @@ footer p, footer a {
     margin-bottom: 0px;
 }
 footer a:hover{
-    color: #78909c;
+    color: #ff9900;
+    text-decoration: none;
 }
 
 .f_icon {
@@ -1004,3 +1041,43 @@ footer a:hover{
 .fi_i{
     background: url(../img/footerin.png) no-repeat top center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
