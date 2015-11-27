@@ -16,9 +16,6 @@ $(document).ready(function() {
     scrollable: true
   });
 
-  document.ontouchmove = function(e) {
-    e.preventDefault();
-  };
   $('#slides').hammer().on('swipeleft', function() {
     $(this).superslides('animate', 'next');
   });
