@@ -11,6 +11,7 @@
     border-left-color: #ff9900;
     border-width: 8px;
     margin-top: -8px;
+
 }
 
 
@@ -19,21 +20,27 @@
 .button-circle {
     width: 30px!important;
     height: 2px!important;
-    border-radius: 0px!important; 
     border: none!important;
+    border-radius: 0px!important; 
     margin-top: 0px!important;
     margin-left: 11px!important;
     background: #fff!important;
+        -webkit-box-shadow: 0px 0px 1px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 1px 0px rgb(0, 0, 0);
+    box-shadow: 0px 0px 1px 0px rgb(0, 0, 0);
 
 }
 .button-circle.buttonAktiv {
     width: 30px!important;
-    height: 2px!important;
+    height: 4px!important;
     border-radius: 0px!important; 
     border: none!important;
     margin-top: 0px!important;
     margin-left: 11px!important;
     background: #ff9900!important;
+           -webkit-box-shadow: 0px 0px 1px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 1px 0px rgb(0, 0, 0);
+    box-shadow: 0px 0px 1px 0px rgb(0, 0, 0);
 }
 .navi-item {
     height: 15px!important;
