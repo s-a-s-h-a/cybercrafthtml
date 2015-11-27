@@ -11,6 +11,7 @@ $(document).ready(function() {
     slide_easing: 'easeInOutCubic',
     slide_speed: 800,
     pagination: true,
+    animation: 'fade',
     hashchange: false,
     play: 5000,
     scrollable: true
