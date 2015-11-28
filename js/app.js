@@ -18,18 +18,13 @@ $(document).ready(function() {
   });
 
 
-  // disabled swipe on home slider because it prevents browser scroll
-  var handle_main_slider_swipe = false
+  $('#slides').hammer().on('swipeleft', function() {
+    $(this).superslides('animate', 'next');
+  });
 
-	if(handle_main_slider_swipe){
-		  $('#slides li').hammer().on('swipeleft', function() {
-		    $(this).superslides('animate', 'next');
-		  });
-
-		  $('#slides li').hammer().on('swiperight', function() {
-		    $(this).superslides('animate', 'prev');
-		  });
-	}
+  $('#slides').hammer().on('swiperight', function() {
+    $(this).superslides('animate', 'prev');
+  });
 
 });
 //And js main heder superslides
@@ -56,7 +51,11 @@ $(function() {
 
         $('.setOff').click(function () {
             console.log('off');
-            $('.scroll-container').onePageScrollDestroy();
+            $('.scroll-container').onePageScrollDestroy({
+              offsetAktiv: 0,
+              topMargin: 0
+
+            });
         })
     });
 //And Sidebar Navigation  Main page
