@@ -53,9 +53,7 @@ $(function() {
             console.log('off');
             $('.scroll-container').onePageScrollDestroy({
               offsetAktiv: 0,
-              topMargin: 0,
-              topElement: $('header'),
-              topNavigation: true
+              topMargin: 0
 
             });
         })
@@ -148,3 +146,22 @@ $(document).ready(function() {
 
 });
 //And Form animated Main page
+
+
+
+    $(document).ready(function(){ 
+ 
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 1200) {
+                $('.scrollup').fadeIn();
+            } else {
+                $('.scrollup').fadeOut();
+            }
+        }); 
+ 
+        $('.scrollup').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 1000);
+            return false;
+        });
+ 
+    });
