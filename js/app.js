@@ -53,7 +53,9 @@ $(function() {
             console.log('off');
             $('.scroll-container').onePageScrollDestroy({
               offsetAktiv: 0,
-              topMargin: 0
+              topMargin: 0,
+              topElement: $('header'),
+              topNavigation: true
 
             });
         })
