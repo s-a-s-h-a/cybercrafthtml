@@ -95,7 +95,8 @@ $(document).ready(function() {
 // Slider Main page
 $(document).ready(function(){
   $('.industrieswehelp').bxSlider({
-    pagerSelector: '.industriewwepager'
+    pagerSelector: '.industriewwepager',
+    auto: true
   });
 });
 //End Slider Main page

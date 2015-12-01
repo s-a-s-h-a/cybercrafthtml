@@ -182,11 +182,6 @@ body {
     }
 }
 
-
-
-
-
-
 .menu-btn {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -239,12 +234,6 @@ body {
     background-color: #fff;
 }
 
-
-
-
-
-
-
 .container-push .top-animate{    
     top: 4px;
     width: 36px;
@@ -262,8 +251,6 @@ body {
     background-color: #009CE8;
         opacity: 0;
 }
-
-
 .container-push .bottom-animate{
     top: 24px;
     width: 36px;
@@ -282,10 +269,6 @@ body {
     transition-timing-function: cubic-bezier(0.75, 0, 0.29, 1.01);
 
     position: absolute;}
-
-
-
-
 .push_icon {
     position: absolute;
     bottom: 0px;
@@ -300,17 +283,37 @@ body {
 .push_icon a:hover {
     opacity: 0.8;
 }
+/* ---------------------------------------------------------
+    Main page a top
+---------------------------------------------------------*/
+#handler-first {
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    position: fixed;
+    top: 90px;
+        z-index: 9999;
 
-
-
-
-
-
-
-
-
-
-
+}
+.scrollup{
+    width:30px;
+    height:30px;
+    opacity:0.3;
+    position:fixed;
+    right:29px;
+    display:none;
+    text-indent:-9999px;
+    margin-top: 95px;
+        -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.35);
+}
+.scrollup svg {
+    position: absolute;
+}
+/* ---------------------------------------------------------
+    Main page a top
+---------------------------------------------------------*/
 /* ---------------------------------------------------------
 	Main page 1.1 Header
 ---------------------------------------------------------*/
@@ -1337,44 +1340,6 @@ footer a:hover{
 }
 .fi_i{
     background: url(../img/footerin.png) no-repeat top center;
-}
-
-
-
-
-
-#handler-first {
-    width: 50px;
-    height: 50px;
-    background-color: #000000;
-    position: fixed;
-    top: 90px;
-        z-index: 9999;
-
-}
-
-
-
-.scrollup{
-    width:30px;
-    height:30px;
-    opacity:0.3;
-    position:fixed;
-    right:29px;
-    display:none;
-    text-indent:-9999px;
-    margin-top: 95px;
-        -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.35);
-    -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.35);
-    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.35);
-}
-
-.scrollup svg {
-    position: absolute;
-}
-
-.scrollup svg {
-    position: absolute;
 }
 
 
