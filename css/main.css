@@ -295,22 +295,7 @@ body {
         z-index: 9999;
 
 }
-.scrollup{
-    width:30px;
-    height:30px;
-    opacity:0.3;
-    position:fixed;
-    right:29px;
-    display:none;
-    text-indent:-9999px;
-    margin-top: 95px;
-        -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.35);
-    -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.35);
-    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.35);
-}
-.scrollup svg {
-    position: absolute;
-}
+
 /* ---------------------------------------------------------
     Main page a top
 ---------------------------------------------------------*/
@@ -476,26 +461,25 @@ display: none;
 }
 .team_con:hover .team_cont{
     display: block;
-    top: 0px;
 }
 
 
 .team_cont{
     position: absolute;
-    top: -120px;
-
-    background: url(../img/teamshower.png) no-repeat center center;
+    top: 0px;
+    display: none;
+    background:#fff url(../img/teamshower.png) no-repeat center center;
     background-size: 100%;
     z-index: 999;
     width: 130px;
     height: 120px;
     padding: 10px 20px;
     text-align: center;
-      -webkit-transition: top 0.4s;
-     -moz-transition: top 0.4s;
-       -o-transition: top 0.4s;
-      -ms-transition: top 0.4s;
-          transition: top 0.4s;
+      -webkit-transition:  0.4s;
+     -moz-transition:  0.4s;
+       -o-transition:  0.4s;
+      -ms-transition:  0.4s;
+          transition:  0.4s;
 
 }
 
