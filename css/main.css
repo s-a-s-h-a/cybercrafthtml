@@ -328,6 +328,7 @@ display: none;
 .heading_slide h1 {
     color: #fff;
     text-transform: uppercase;
+    width: 655px;
 }
 .heading_slide h1 a{
     color: #fff;
@@ -339,11 +340,14 @@ display: none;
     padding: 10px 20px;
     letter-spacing: 2.9px;
 }
+.header_lines {
+    padding-right: 15px;
+}
 .heading_slide h1 a:hover{ 
 	text-decoration: none;}
 .header_lines:nth-child(2){
 	padding-right: 20px;
-}
+    padding-left: 20px;}
 .header_lines:nth-child(3) {
     display: block;
     background: rgba(56, 64, 70, 0.8);
@@ -351,6 +355,9 @@ display: none;
 }
 .header_lines:nth-child(4){
 	padding-left: 20px;
+}
+.header_lines:nth-child(5){
+    padding-left: 20px;
 }
 
 .heading_slide h1 a .arrow_slider {
@@ -601,6 +608,9 @@ display: none;
     position: absolute;
     top: 45px;
     right: 28px;
+    color: #fff;
+}
+.section_h3.ins_h3 a{
     color: #fff;
 }
 .section_h3.ins_h3 .sh3_bg{color: #fff;}
