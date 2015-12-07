@@ -10,57 +10,29 @@
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
-.footer-menu {padding: 0;display: block!important;}
-
-.footer-menu-li {
-    display: inline-block!important;
-    padding: 0 3.6%;
-    position: relative;
-}
-.footer-menu-li:after {
-    content: "";
-    position: absolute;
-    top: 12px;
-    right: 3px;
-    width: 2px;
-    height: 13px;
-    background: #6C7A83;
-}
-.footer-contacts-header {margin-top: 20px;}
-.title_page h1 {font-size: 20px;}
-.title_page h1 span {padding: 0 35px;}
-.sp-selected-thumbnail {border-left: 0px solid transparent;background: #273238;}
-.sp-top-thumbnails.sp-has-pointer .sp-thumbnail {
-    position: absolute;
-    top: 15px;
-    bottom: auto;
-    width: 100%!important;
-}
-.sp-thumbnail-title {text-align: center;width: 100%!important;    padding: 8px 0px 0 16px;}
-.sp-thumbnail-container {border-left: 5px solid #383F45;background: #273238;}
-
+.st_img:after {    left: 46%;}
+.step_h3 {    font-size: 16px;}
+.step_blokinfic li {    margin-bottom: 0px;}
+.step_blokinfic {margin-bottom: 0px;}
+.st_cont p {font-size: 14px;line-height: 20px;}
+.step_inf_blok {padding: 20px;padding-bottom: 20px;}
+.st_img img {width: 100%;}
 }
 @media only screen and (max-width : 850px) {
-.sp-thumbnail-title {}
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-.title_page h1 { font-size: 18px;}
-.title_page h1 span { padding: 0 15px;}
-.content_offer_services {    padding-bottom: 20px;}
-
+.step_h3 {font-size: 14px;}
+.st_cont h3 {font-size: 19px;margin-bottom: 10px;}
 }
 @media only screen and (max-width : 650px) {
-.sp-thumbnail-title {padding: 0px 0px 0 16px;}
-.sp-thumbnail-title {text-align: center;width: 100%!important; padding: 0px 0px 0 16px;    margin-left: 0%;}
 
 	}
 @media only screen and (max-width : 600px) {
-
+.st_img img {width: 120%;}
 	}
 @media only screen and (max-width : 550px) {
-	
+	.st_img img {width: 130%;}
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
@@ -97,7 +69,5 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-.we_offer.services_we_offer {
-    padding-top: 70px;
-}
+.st_img:after { left: 71px;}
 }

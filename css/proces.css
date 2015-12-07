@@ -116,9 +116,10 @@ padding: 0 60px;
     padding: 15px 0 15px;
 }
 .step_inf_blok {
-    overflow: hidden;
     background: #EBEFF2;
     padding: 27px;
+    padding-bottom: 40px;
+    margin-bottom: 80px;
 }
 .step_h3 {
     color: #fff;
@@ -126,23 +127,26 @@ padding: 0 60px;
     font-family: 'Orbitron-Regular';
     letter-spacing: 2.6px;
     margin: 5px 0;
+    text-transform: uppercase;
 }
 .step_h3 span{
     color: #ff9800;
         letter-spacing: 1.9px;}
 .st_img {
     position: relative;
+    text-align: center;
 }
 .st_img:after{
     content: '';
     position: absolute;
-    width: 4px;
-    height: 20px;
-    bottom: 0px;
-    left: 0px;
+    width: 10px;
+    height: 100px;
+    bottom: -102px;
+    left: 55px;
     background: #000;
-     background: url(../img/arrow1.png) no-repeat center center;
+    background: url(../img/step_arrow.png) no-repeat center bottom;
 }
+.st_img_4:after{display: none;}
 .st_cont h3 {
     color: #384046;
     margin: 1px 0;
@@ -157,8 +161,61 @@ padding: 0 60px;
     font-size: 17px;
     line-height: 21px;
 }
+.cont_st_step {
+    float: none!important;
+}
 
+.step_blokinfic {
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
 
+.step_blokinfic li{
+    list-style-type: none;
+    padding-left: 54px;
+    margin-bottom: 23px;
+    padding-bottom: 20px;
+}
+.bloc_iconbor1{background: url(../img/iconprocess.png) no-repeat top left;}
+.bloc_iconbor2{background: url(../img/iconprocess_02.png) no-repeat top left;}
+.bloc_iconbor3{background: url(../img/iconprocess_03.png) no-repeat top left;}
+.bloc_iconbor4{background: url(../img/iconprocess_04.png) no-repeat top left;}
+.bloc_iconbor5{background: url(../img/iconprocess_05.png) no-repeat top left;}
+.step_blokinfic li p{
+    font-size: 16px;
+}
+.step_blokinfic li p span{
+    font-family: 'Ubuntu-Medium';
+}
+
+/* ---------------------------------------------------------
+  Baner bottom
+---------------------------------------------------------*/
+.bt_baner {
+    background: url(../img/servicesbanner.jpg) no-repeat top center;
+    background-size:cover;
+    padding: 135px 0;
+}
+.bot_foot_baner {
+    background: #000;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 28px 25px;
+    padding-bottom: 16px;
+    position: relative;
+}
+.bot_foot_baner:after{
+    content: '';
+    background: url(../img/brackets.png) no-repeat top center;
+    position: absolute;
+    top: -19px;
+    left: 8px;
+    width: 47px;
+    height: 33px;}
+.bot_foot_baner p{
+    color: #fff;
+    text-align: center;
+}
 
 
 
