@@ -36,13 +36,13 @@ $( document ).ready(function( $ ) {
           },
           600: {
             thumbnailsPosition: 'top',
-            thumbnailWidth: 600,
+            thumbnailWidth: 550,
             arrows: true,
             thumbnailHeight: 71.8
           },
           500: {
             thumbnailsPosition: 'top',
-            thumbnailWidth: 500,
+            thumbnailWidth: 450,
             arrows: true,
             thumbnailHeight: 50
           },
@@ -50,7 +50,7 @@ $( document ).ready(function( $ ) {
             thumbnailsPosition: 'top',
             arrows: true,
             thumbnailHeight: 71.8,
-            thumbnailWidth: 400
+            thumbnailWidth: 360
           },
           300: {
             thumbnailsPosition: 'top',
