@@ -247,7 +247,7 @@ ul#countdown li p.timeRefDays, ul#countdown li p.timeRefHours, ul#countdown li p
 }
 .career_info_block {
     text-align: center;
-    font-weight: 700;
+    font-weight: 500;
     color: #597582;
     font-size: 16px;
     padding-top: 104px;
@@ -333,14 +333,16 @@ footer .intro_career_foot p {
 }
 .foot_title_career {
     text-align: center;
+    padding: 20px 0;
 }
 .foot_title_career span{
     padding-right: 12px;
 }
 .foot_title_career a, .foot_title_career p{
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 500;
     color: #373E44;
     line-height: 10px;
     display: block;
+    letter-spacing: -0.5px;
 }
