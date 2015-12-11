@@ -57,10 +57,10 @@
 .a_careers:hover .team_img .img_tea_hover{
     display: block;
     opacity: 1;
-         -webkit-animation: fadeInFromNone 0.25s ease-out;
-    -moz-animation: fadeInFromNone 0.25s ease-out;
-    -o-animation: fadeInFromNone 0.25s ease-out;
-    animation: fadeInFromNone 0.25s ease-out;
+         -webkit-animation: fadeInFromNone 0.85s linear;
+    -moz-animation: fadeInFromNone 0.85s linear;
+    -o-animation: fadeInFromNone 0.85s linear;
+    animation: fadeInFromNone 0.85s linear;
 }
 @-webkit-keyframes fadeInFromNone {
     0% {
@@ -200,10 +200,10 @@
 }
 .a_careers:hover .team_initials_hover{
         bottom: 0px;
-        -webkit-transition: bottom .55s;
-        -moz-transition: bottom .55s;
-        -ms-transition: bottom .55s;
-        -o-transition: bottom .55s;
-        transition: bottom .55s;
+        -webkit-transition: bottom .35s;
+        -moz-transition: bottom .35s;
+        -ms-transition: bottom .35s;
+        -o-transition: bottom .35s;
+        transition: bottom .35s;
 }
 
