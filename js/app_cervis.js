@@ -16,64 +16,17 @@ $( document ).ready(function( $ ) {
         thumbnailHeight: 71.8,
         fadeArrows: false,
         breakpoints: {
-          992: {
-            thumbnailsPosition: 'top',
-            thumbnailWidth: 830,
-            arrows: true,
-            thumbnailHeight: 71.8
-          },
           800: {
             thumbnailsPosition: 'top',
-            thumbnailWidth: 800,
+            thumbnailTouchSwipe: false,
+            width: '50%',
+            thumbnailWidth: '50%',
             arrows: true,
-            thumbnailHeight: 71.8
-          },
-          700: {
-            thumbnailsPosition: 'top',
-            thumbnailWidth: 700,
-            arrows: true,
-            thumbnailHeight: 71.8
-          },
-          600: {
-            thumbnailsPosition: 'top',
-            thumbnailWidth: 550,
-            arrows: true,
-            thumbnailHeight: 71.8
-          },
-          500: {
-            thumbnailsPosition: 'top',
-            thumbnailWidth: 450,
-            arrows: true,
-            thumbnailHeight: 50
-          },
-          400: {
-            thumbnailsPosition: 'top',
-            arrows: true,
-            thumbnailHeight: 71.8,
-            thumbnailWidth: 360
-          },
-          300: {
-            thumbnailsPosition: 'top',
-            arrows: true,
-            thumbnailHeight: 71.8,
-            thumbnailWidth: 300
-          },
-          200: {
-            thumbnailsPosition: 'top',
-            arrows: true,
-            thumbnailHeight: 71.8,
-            thumbnailWidth: 200
+            loop: true,
+            thumbnailHeight: 71
           }
+
         }
       });
   });
-
-  //Alignment unit .we_height Main page
-    $(document).ready(function () {
-$(function() {
-    $('.weheight').matchHeight();
-});
-    });
-//And Alignment unit  .we_height Main page
-
 
