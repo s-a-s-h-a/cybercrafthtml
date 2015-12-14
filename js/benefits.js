@@ -4,8 +4,13 @@
 			
 				$('#benefits-accordion').accordion({
 					oneOpenedItem	: true,
-					speed           : 500
+					easing          : 'linear',
+					scrollSpeed     : 800,
+					scrollEasing    : 'linear',
+					speed           : 0
 
 				});
 				
             });
+
+            
